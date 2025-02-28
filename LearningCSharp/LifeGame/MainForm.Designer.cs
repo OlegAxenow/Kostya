@@ -28,19 +28,19 @@ partial class MainForm
     /// </summary>
     private void InitializeComponent()
     {
-        SuspendLayout();
-        //
-        // MainForm
-        //
-        AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-        AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        BackColor = System.Drawing.Color.Black;
-        ClientSize = new System.Drawing.Size(800, 450);
-        ControlBox = false;
-        MaximizeBox = false;
-        MinimizeBox = false;
-        Text = "Life Game";
-        ResumeLayout(false);
+	    SuspendLayout();
+	    // 
+	    // MainForm
+	    // 
+	    AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+	    AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+	    BackColor = System.Drawing.Color.WhiteSmoke;
+	    ClientSize = new System.Drawing.Size(800, 450);
+	    FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+	    MaximizeBox = false;
+	    MinimizeBox = false;
+	    Text = "Life Game";
+	    ResumeLayout(false);
     }
 
     #endregion
